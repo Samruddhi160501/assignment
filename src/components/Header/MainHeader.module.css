@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.img1 {
+  position: absolute;
+  margin-left: 828.66px;
+  margin-right: 389.34px;
+  margin-top: 388.04px;
+  width: 222px;
+  height: 254px;
+  background: #eaf2ff;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.img2 {
+  position: absolute;
+  margin-left: 828.66px;
+  margin-right: 389.34px;
+  margin-top:667.04px;
+  width: 222px;
+  height: 254px;
+  background: #eaf2ff;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.img3 {
+  position: absolute;
+  margin-left:1106.66px ;
+  margin-right: 113.34px;
+  margin-top:257.04px;
+  width: 222px;
+  height: 254px;
+  background: #eaf2ff;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.img4 {
+  position: absolute;
+  margin-left:1106.66px ;
+  margin-right: 113.34px;
+  margin-top:536.04px;
+  width: 222px;
+  height: 254px;
+  background: #eaf2ff;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.card {
+  width: 30%;
+  height: 10%;
+  background-color: rgb(19, 18, 18);
+  display: "flex";
+  border-radius: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.heading {
+  position: absolute;
+  width: 449px;
+  height: 120px;
+  left: 154px;
+  top: 325px;
+  font-family:'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.15px;
+  color: rgb(19, 18, 18);
+}
+.heading_line2 {
+  position: absolute;
+  width: 449px;
+  height: 120px;
+  left: 154px;
+  top: 370px;
+  font-family:'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.15px;
+  color: rgb(19, 18, 18);
+}
+.description {
+  position: absolute;
+  width: 422px;
+  height: 216px;
+  left: 181px;
+  top: 461px;
+  font-family:'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: rgb(105,111,113);
+}

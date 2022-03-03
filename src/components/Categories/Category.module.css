@@ -1,0 +1,55 @@
+.headline {
+  position: absolute;
+  width: 235px;
+  height: 24px;
+  left: 626px;
+  top: 2305px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 24px;
+  /* identical to box height, or 50% */
+
+  letter-spacing: 0.15px;
+
+  color: #373f41;
+}
+.cat1 {
+  width: 71px;
+  height: 48px;
+  text-align: center;
+  top: 2502px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(55, 63, 65, 0.87);
+}
+
+.img1 {
+  margin-top: 2350px;
+  margin-left: 43px;
+ 
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  background: #eaf2ff;
+}
+
+.card {
+  margin-left: 12px;
+  justify-content: center;
+  flex-direction: "row";
+  display: inline;
+  width: auto;
+}
+.card_text {
+  justify-content: center;
+  align-items: center;
+  flex-direction: "row";
+  display: flex;
+}

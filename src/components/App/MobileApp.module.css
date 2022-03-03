@@ -1,0 +1,66 @@
+.text {
+  position: absolute;
+  width: 459px;
+  height: 60px;
+  left: 753px;
+  top: 1765px;
+
+  font-family:'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+
+  letter-spacing: 0.15px;
+
+  color: #373f41;
+}
+.image_ios {
+  position: absolute;
+  width: 222px;
+  height: 74px;
+  margin-left: 991px;
+  margin-top: 1876px;
+  margin-right: 227px;
+
+  background: #eaf2ff;
+  border-radius: 8px;
+}
+.image_android {
+  position: absolute;
+  width: 222px;
+  height: 74px;
+  margin-left: 753px;
+  margin-top: 1876px;
+  margin-right: 465px;
+  
+  background: #eaf2ff;
+  border-radius: 8px;
+}
+.spacing {
+  margin-right: 2cm;
+  align-items: center;
+}
+
+.image_mobile1 {
+  position: absolute;
+  margin-left:70.2px ;
+  margin-right: 1123.8px;
+  margin-top:1696.3px;
+  width: 246px;
+  height: 374px;
+  background: #eaf2ff;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.image_mobile2 {
+  background: #eaf2ff;
+  position: absolute;
+  margin-left:361.2px ;
+  margin-right: 832.8px;
+  margin-top:1795.44px;
+  width: 246px;
+  height: 374px;
+ 
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}

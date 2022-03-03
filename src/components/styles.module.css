@@ -1,0 +1,38 @@
+.rectangle {
+  display: inline-block;
+  position: absolute;
+  width: 1519px;
+  height: 177px;
+  right: 0 px;
+  left: 0px;
+  margin-top: 825px;
+  color: #e1efff;
+  background: #e1efff;
+}
+.line3 {
+  position: absolute;
+  width: 1519px;
+  height: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  top: 2599px;
+
+  border: 1px solid rgb(230, 231, 231);
+}
+.line2 {
+  position: absolute;
+  width: 1519px;
+  height: 0px;
+  margin-left: 0px;
+  top: 2266px;
+
+  border: 1px solid rgb(230, 231, 231);
+}
+.line1 {
+  position: absolute;
+  width: 1519px;
+  height: 0px;
+  margin-left: 0px;
+  margin-top: 1024px;
+  border: 1px solid rgb(247, 248, 248);
+}

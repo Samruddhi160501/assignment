@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "../src/components/styles.module.css";
+import Location from "./components/Location/Location";
+import Header from "./components/Header/Header";
+import MainHeader from "./components/Header/MainHeader";
+import MainBody from "./components/MainBody/MainBody";
+import MobileApp from "./components/App/MobileApp";
+import Category from "./components/Categories/Category";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <MainHeader></MainHeader>
+      <hr className={styles.line1} />
+      <MainBody />
+      <MobileApp></MobileApp>
+      <hr className={styles.line2} />
+      <Category></Category>
+      <hr className={styles.line3} />
+      <Location></Location>
+      <div className={styles.rectangle}></div>
     </div>
   );
 }
